@@ -55,5 +55,5 @@ P4/P5/P6 全部由它计算；现场改 S 后所有界面与输出随之变化�
 
 - 工程目录名用 ASCII（`Lab3_3240704204`）而程序集/解决方案名保持中文：中文工程路径会让 MSBuild
   的 `.sln` 解析在当前区域设置下按 ANSI 解码，出现 MSB3202 找不到工程文件（详见实验报告"问题记录"）。
-- 提交前请把本目录推送到校内 Git 平台，并用 `git log --pretty=fuller --date=iso-strict --stat > git-log.txt`
-  与 `git reflog --date=iso-strict >> git-log.txt` 导出带服务器时间戳的记录。
+- 远端仓库：https://github.com/zephyr316247-commits/hci-lab3-3240704204 （GitHub，私有）。私有仓库请在 Settings → Collaborators 添加教师账号，
+  或提交前改为 Public；git-log.txt 里附了 git ls-remote 与 GitHub pushed_at 服务端时间。
