@@ -1,0 +1,5 @@
+config,images,chars,char_hits,char_accuracy,exact_matches,exact_accuracy
+samples_none,50,200,200,1.0000,50,1.0000
+samples_a,50,200,70,0.3500,0,0.0000
+samples_b,50,200,114,0.5700,8,0.1600
+samples_ab,50,200,41,0.2050,0,0.0000
